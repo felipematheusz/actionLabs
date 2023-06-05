@@ -1,0 +1,35 @@
+.footer {
+  background: var(--light-blue);
+  .container {
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 14px;
+    @media (max-width: 992px) {
+      align-items: center;
+    }
+    a {
+      height: 30px;
+      width: 171.1px;
+      border: 1px solid var(--primary-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .border-footer {
+      border-bottom: 1px solid var(--primary-white);
+      width: 100%;
+    }
+    span {
+      text-align: right;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      color: var(--primary-white);
+      @media (max-width: 992px) {
+        text-align: center;
+      }
+    }
+  }
+}

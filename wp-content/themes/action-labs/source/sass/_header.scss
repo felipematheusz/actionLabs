@@ -1,0 +1,31 @@
+header {
+  background: var(--light-blue);
+  .container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    nav {
+      a {
+        height: 30px;
+        width: 171.1px;
+        border: 1px solid var(--primary-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-white);
+      border-radius: 100px;
+      font-weight: 500;
+      font-size: 12px;
+      color: var(--dark-blue);
+      width: 97px;
+      height: 36px;
+    }
+  }
+}

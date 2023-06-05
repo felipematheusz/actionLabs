@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap");
+
+@import "header";
+@import "blog";
+@import "footer";
+@import "single";
+@import "sobre-nos";
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  body {
+    background: #e5e5e5;
+    margin: 0;
+    font-family: "Roboto";
+  }
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    --light-blue: #05cffc;
+    --dark-blue: #01758d;
+    --primary-white: #ffffff;
+    --primary-black: #666666;
+    --text-color: #939393;
+    --text-gray: #525252;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    padding: 0px 28px;
+
+    @media (min-width: 992px) {
+      padding: 0px 12px;
+    }
+  }
+}
